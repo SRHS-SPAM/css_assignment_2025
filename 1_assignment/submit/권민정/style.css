@@ -1,35 +1,32 @@
 body{
-    background-color: gray;
-}
-.dox{
     display: flex;
     justify-content: center;
+    background-color: black;
+}
+.class1{
     width: 500px;
     height: 700px;
-    background-color: white;
+    background-color:white;
+    display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
-.main1{
+.class2{
     width: 150px;
     height: 150px;
-    background-color: rgb(213, 153, 213);
+    background-color: blueviolet;
     border-radius: 100px;
 }
-.main2{
+.class3{
     width: 150px;
     height: 150px;
-    background-color: rgb(213, 153, 213);
+    background-color: blueviolet;
     border-radius: 100px;
 }
-.main3{
+.class4{
     width: 150px;
     height: 150px;
-    background-color: rgb(213, 153, 213);
-}
-.lol{
-    display: flex;
-    justify-content: center;
-    margin: 20px;
+    background-color: blueviolet;
 }
