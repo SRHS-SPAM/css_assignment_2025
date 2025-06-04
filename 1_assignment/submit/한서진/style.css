@@ -1,0 +1,28 @@
+body{
+    background-color: gray;
+}
+
+.container{
+    margin: auto;
+    display: flex;
+    background-color: white;
+    width: 500px;
+    height: 680px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap : 80px;
+}
+
+.circle{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    background-color: #8a2be2;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: #8a2be2;
+}
