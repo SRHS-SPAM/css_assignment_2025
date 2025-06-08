@@ -1,0 +1,57 @@
+body {
+  background-color: #f5f5f5;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.box.center {
+  width: 220px;
+  height: 220px;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+}
+
+.sq {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.lime {
+  background-color: lime;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.purple {
+  background-color: purple;
+}
