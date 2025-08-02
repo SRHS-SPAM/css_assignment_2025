@@ -1,0 +1,128 @@
+
+.container{
+    
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  gap: 100px;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border-radius: 8%;
+}
+
+
+.box:nth-child(1) { display: flex;
+  position: relative;
+  justify-content: center; 
+  align-items: center;
+  width: 35vh;
+  height: 35vh;
+  background: #9B4DFF; }  
+.box:nth-child(2) { display: flex;
+  position: relative;
+  justify-content: center; 
+  align-items: center;
+  width: 35vh;
+  height: 35vh;
+  background: #F44336; }  
+.box:nth-child(3) { 
+  display: flex;
+  position: relative;
+  justify-content: center; 
+  align-items: center;
+  width: 35vh;
+  height: 35vh;
+  background: #FFA726; }  
+.box:nth-child(4) {
+  display: flex;
+  position: relative;
+  justify-content: center; 
+  align-items: center;
+  width: 35vh;
+  height: 35vh;
+  
+   }  
+.box:nth-child(5) { display: flex;
+  position: relative;
+  justify-content: center; 
+  align-items: center;
+  width: 35vh;
+  height: 35vh;
+  background: #B2F2BB; }
+.box:nth-child(6) { 
+  display: flex;
+  position: relative;
+  justify-content: center; 
+  align-items: center;
+  width: 35vh;
+  height: 35vh;
+  background: #e5e906; }
+.box:nth-child(7) { 
+  display: flex;
+  position: relative;
+  justify-content: center; 
+  align-items: center;
+  width: 35vh;
+  height: 35vh;
+  background: #b3b2f2; }  
+
+
+.square {
+  background: #7b08ff;
+  width: 200px;
+  height: 200px;
+  border-radius: 8% ;
+}
+
+.square1 {
+  background: #f5de14;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 8% ;
+}
+
+.square2 {
+  background: #ff3b3b;
+  position: absolute;
+  width: 150px;
+  height: 180px;
+  top: 0%;
+  left: 60%;
+  z-index: -2;
+  border-radius: 8% ;
+}
+
+
+
+.square3 {
+  background: #0004ff;
+  position: absolute;
+  width: 180px;
+  height: 150px;
+  top: 55%;
+  left: 50%;
+  z-index: -3;
+  border-radius: 8% ;
+}
+
+.square4 {
+  background: #00ffd5b2;
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  top: 55%;
+  left:0%;
+  z-index: -4;
+  border-radius: 8% ;
+}
