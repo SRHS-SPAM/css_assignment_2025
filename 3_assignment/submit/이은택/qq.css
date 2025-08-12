@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	/* height: 100vh; */
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	
+}
+
+.inputwrap {
+	width: 530px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	border: 1px solid #ccc;
+	padding: 0 20px;
+	border-radius: calc(45px / 2);
+		
+}
+
+.inputwrap input {
+	width: 100%;
+	height: 100%;
+	border: 0;
+	outline: 0;
+}
+
+.iconwrap {
+	display: flex;
+	gap: 10px;
+}
+
+
+.mid {
+    margin-top: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.logo {
+    background-color: #fff;
+    color: white;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 20px;
+}
+
+.logo img {
+    width: 260px;  /* 로고 크기 */
+    height: auto;
+}
+
+.mid2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+}
+
+.top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px 20px;
+    font-size: 14px;
+	gap : 20px;
+	justify-content: space-between;
+	display : flex;
+}
+
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px 20px;
+	display: flex;
+	justify-content: space-between;
+    font-size: 14px;
+	gap : 20px;
+	align-items: center; 
+}
+
+.login {
+    background-color: #1a73e8;
+    color: white;
+	border: none;
+    padding: 8px 20px;
+    border-radius: 25px;
+}
+
+.mid3 {
+	height: 85px;
+    display: flex;
+    gap: 16px;
+	align-items: center;
+	/* flex-direction: column; */
+	justify-content: center;
+}
+
+.mid4 {
+    padding: 5px 12px;
+    background-color: rgba(242, 242, 242, 0.7);
+    border: 2px solid rgba(218, 220, 224, 0);
+    border-radius: 4px;
+    color: #3c4043;
+	font-size: 15px;
+}
+
+
+.footer {
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #70757a;
+    font-size: 14px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+.footer-country { 
+    padding: 15px 30px; 
+    border-bottom: 1px solid #dadce0; 
+	display: flex;
+	justify-content: space-between;
+}
+
+.down {
+	display: flex;
+	justify-content: space-between;
+	padding: 14px 30px;
+	gap : 20px;
+}
+
+.down-left {
+    display: flex;
+    gap: 20px;
+}
+
+.down-right {
+	display: flex;
+    gap: 20px;
+}
+
+
